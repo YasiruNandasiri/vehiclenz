@@ -1,0 +1,317 @@
+                   
+    <p><input type=\"text\" placeholder=\"Name\" name=\"sname\" size=\"28\" style=\"width: 55%; box-sizing: border-box; padding: 6px; margin-top: 8px; margin-right: 16px; font-size: 1em;\"></p>
+
+    <p><input type=\"text\" placeholder=\"Email Address\" name=\"email address\" size=\"28\" style=\"width: 55%; box-sizing: border-box; padding: 6px; margin-top: 8px; margin-right: 16px; font-size: 1em;\"></p>
+    
+    <p><input type=\"text\" placeholder=\"Phone Number\" name=\"Phone Number\" size=\"28\" style=\"width: 55%; box-sizing: border-box; padding: 6px; margin-top: 8px; margin-right: 16px; font-size: 1em;\"></p>
+    
+    <p><input type=\"text\" placeholder=\"Vehicle Registration *\" name=\"Vehicle Registration\" size=\"28\" style=\"width: 55%; box-sizing: border-box; padding: 6px; margin-top: 8px; margin-right: 16px; font-size: 1em;\"></p>
+    
+    
+    <p><input type=\"text\" placeholder=\"Vehicle Make\" name=\"Vehicle Make\" size=\"28\" style=\"width: 55%; box-sizing: border-box; padding: 6px; margin-top: 8px; margin-right: 16px; font-size: 1em;\"></p>
+    
+    
+    <p><input type=\"text\" placeholder=\"Vehicle Model *\" name=\"Vehicle Model\" size=\"28\" style=\"width: 55%; box-sizing: border-box; padding: 6px; margin-top: 8px; margin-right: 16px; font-size: 1em;\"></p>
+    
+    <p><input type=\"text\" placeholder=\"Vehicle Year\" name=\"Vehicle Year\" size=\"28\" style=\"width: 55%; box-sizing: border-box; padding: 6px; margin-top: 8px; margin-right: 16px; font-size: 1em;\"></p>
+    
+   
+                                                <div class=\"field-group\">
+                    <div class=\"caption\" for=\"type-of-service\">
+                        <h2>
+                            Type of Service
+                                                            <span>*</span>
+                                                    </h2>
+                    </div>
+                    <div></p>
+                        <select style=\"width: 55%; box-sizing: border-box; padding: 6px; margin-top: 8px; margin-right: 16px; font-size: 1em; class=\"select\" id=\"type-of-service\" name=\"type-of-service\"
+                             required >
+                                                            <option value=''>Please Select</option>
+                                                                                        <option value=\"Express Service\">
+                                    Express Service</option>
+                                                            <option value=\"Euro Service\">
+                                    Euro Service</option>
+                                                            <option value=\"Extensive Service\">
+                                    Extensive Service</option>
+                                                            <option value=\"Elite Service\">
+                                    Elite Service</option>
+                                                            <option value=\"4x4 Utes &amp; Vans Service\">
+                                    4x4 Utes &amp; Vans Service</option>
+                                                            <option value=\"Hybrid Service\">
+                                    Hybrid Service</option>
+                                                            <option value=\"EV Service\">
+                                    EV Service</option>
+                                                            <option value=\"Brake\">
+                                    Brake</option>
+                                                            <option value=\"Exhaust\">
+                                    Exhaust</option>
+                                                            <option value=\"Oil\">
+                                    Oil</option>
+                                                            <option value=\"Safety Check\">
+                                    Safety Check</option>
+                                                            <option value=\"Shocks\">
+                                    Shocks</option>
+                                                            <option value=\"WOF\">
+                                    WOF</option>
+                                                            <option value=\"Other\">
+                                    Other</option>
+                                                    </select>
+                    </div>
+                </div>
+                                                
+                                                <div class=\"field-group\">
+                    <div class=\"caption\" for=\"pit_stop_location\">
+                        <h2>
+                            Pit Stop Location
+                                                            <span>*</span>
+                                                    </h2>
+                    </div>
+                    <div class=\"db-field\">
+                        <select style=\"width: 55%; box-sizing: border-box; padding: 6px; margin-top: 8px; margin-right: 16px; font-size: 1em; class=\"select\" id=\"pit_stop_location\" name=\"pit_stop_location\"
+                             required >
+                            <option value=\"\">Please Select</option>
+                                                            <optgroup label=\"Northland\">
+                                                                            <option
+                                            value=\"Kerikeri\">
+                                            Kerikeri</option>
+                                                                            <option
+                                            value=\"Warkworth\">
+                                            Warkworth</option>
+                                                                            <option
+                                            value=\"Whangarei\">
+                                            Whangarei</option>
+                                                                    </optgroup>
+                                                            <optgroup label=\"Auckland\">
+                                                                            <option
+                                            value=\"Albany\">
+                                            Albany</option>
+                                                                            <option
+                                            value=\"Auckland Airport\">
+                                            Auckland Airport</option>
+                                                                            <option
+                                            value=\"Botany Downs\">
+                                            Botany Downs</option>
+                                                                            <option
+                                            value=\"Browns Bay\">
+                                            Browns Bay</option>
+                                                                            <option
+                                            value=\"Glen Innes\">
+                                            Glen Innes</option>
+                                                                            <option
+                                            value=\"Glenfield\">
+                                            Glenfield</option>
+                                                                            <option
+                                            value=\"Greenlane\">
+                                            Greenlane</option>
+                                                                            <option
+                                            value=\"Grey Lynn\">
+                                            Grey Lynn</option>
+                                                                            <option
+                                            value=\"Henderson\">
+                                            Henderson</option>
+                                                                            <option
+                                            value=\"Manukau\">
+                                            Manukau</option>
+                                                                            <option
+                                            value=\"New Lynn\">
+                                            New Lynn</option>
+                                                                            <option
+                                            value=\"Newmarket\">
+                                            Newmarket</option>
+                                                                            <option
+                                            value=\"Onehung\">
+                                            Onehunga</option>
+                                                                            <option
+                                            value=\"Otahuhu\">
+                                            Otahuhu</option>
+                                                                            <option
+                                            value=\"Pukekohe\">
+                                            Pukekohe</option>
+                                                                            <option
+                                            value=\"Silverdale\">
+                                            Silverdale</option>
+                                                                            <option
+                                            value=\"Takanini\">
+                                            Takanini</option>
+                                                                            <option
+                                            value=\"Westgate\">
+                                            Westgate</option>
+                                                                    </optgroup>
+                                                            <optgroup label=\"Bay Of Plenty\">
+                                                                            <option
+                                            value=\"Tauranga\">
+                                            Tauranga</option>
+                                                                            <option
+                                            value=\"Whakatane\">
+                                            Whakatane</option>
+                                                                    </optgroup>
+                                                            <optgroup label=\"Waikato\">
+                                                                            <option
+                                            value=\"Hamilton – City Central\">
+                                            Hamilton – City Central</option>
+                                                                            <option
+                                            value=\"Hamilton – Te Rapa\">
+                                            Hamilton – Te Rapa</option>
+                                                                            <option
+                                            value=\"Taupo\">
+                                            Taupo</option>
+                                                                            <option
+                                            value=\"Te Awamutu\">
+                                            Te Awamutu</option>
+                                                                            <option
+                                            value=\"Tokoroa\">
+                                            Tokoroa</option>
+                                                                    </optgroup>
+                                                            <optgroup label=\"East Coast\">
+                                                                            <option
+                                            value=\"Gisborne\">
+                                            Gisborne</option>
+                                                                    </optgroup>
+                                                            <optgroup label=\"Hawkes Bay\">
+                                                                            <option
+                                            value=\"Hastings\">
+                                            Hastings</option>
+                                                                            <option
+                                            value=\"Napier\">
+                                            Napier</option>
+                                                                    </optgroup>
+                                                            <optgroup label=\"Taranaki\">
+                                                                    </optgroup>
+                                                            <optgroup label=\"Manawatu-Wanganui\">
+                                                                            <option
+                                            value=\"Levin\">
+                                            Levin</option>
+                                                                            <option
+                                            value=\"Palmerston North\">
+                                            Palmerston North</option>
+                                                                    </optgroup>
+                                                            <optgroup label=\"Wellington\">
+                                                                            <option
+                                            value=\"Lower Hutt\">
+                                            Lower Hutt</option>
+                                                                            <option
+                                            value=\"Paraparaumu\">
+                                            Paraparaumu</option>
+                                                                            <option
+                                            value=\"Petone\">
+                                            Petone</option>
+                                                                            <option
+                                            value=\"Porirua\">
+                                            Porirua</option>
+                                                                    </optgroup>
+                                                            <optgroup label=\"Nelson\">
+                                                                            <option
+                                            value=\"Nelson\">
+                                            Nelson</option>
+                                                                    </optgroup>
+                                                            <optgroup label=\"Canterbury\">
+                                                                            <option
+                                            value=\"Burnside\">
+                                            Burnside</option>
+                                                                            <option
+                                            value=\"Christchurch City\">
+                                            Christchurch City</option>
+                                                                            <option
+                                            value=\"Hornby\">
+                                            Hornby</option>
+                                                                            <option
+                                            value=\"Sydenham\">
+                                            Sydenham</option>
+                                                                    </optgroup>
+                                                            <optgroup label=\"Otago\">
+                                                                            <option
+                                            value=\"Dunedin\">
+                                            Dunedin</option>
+                                                                    </optgroup>
+                                                            <optgroup label=\"Southland\">
+                                                                    </optgroup>
+                                                    </select>
+                    </div>
+                </div>
+                                                <div class=\"field-group\">
+                    <div   class=\"caption\" for=\"preferred-date-of-service\">
+                        <h2>
+                            Preferred Date of Service
+                                                            <span>*</span>
+                                                    </h2>
+                    </div>
+                    <div class=\"db-field\">
+					<input type=\"date\" style=\"width: 55%; box-sizing: border-box; padding: 6px; margin-top: 8px; margin-right: 16px; font-size: 1em; value=\"2023-12-22\" min=\"1999-01-01\" max=\"2099-12-31\" />
+                </div>
+                                                <div class=\"field-group\">
+                    <div class=\"caption\" for=\"preferred-time-of-service\">
+                        <h2>
+                            Preferred Time of Service
+                                                            <span>*</span>
+                                                    </h2>
+                    </div>
+                    <div class=\"db-field\">
+                        <select style=\"width: 55%; box-sizing: border-box; padding: 6px; margin-top: 8px; margin-right: 16px; font-size: 1em; class=\"select\" id=\"preferred-time-of-service\" name=\"preferred-time-of-service\"
+                             required >
+                                                            <option value=''>Please Select</option>
+                                                                                        <option value=\"8:00am\">
+                                    8:00am</option>
+                                                            <option value=\"8:30am\">
+                                    8:30am</option>
+                                                            <option value=\"9:00am\">
+                                    9:00am</option>
+                                                            <option value=\"9:30am\">
+                                    9:30am</option>
+                                                            <option value=\"10:00am\">
+                                    10:00am</option>
+                                                            <option value=\"10:30am\">
+                                    10:30am</option>
+                                                            <option value=\"11:00am\">
+                                    11:00am</option>
+                                                            <option value=\"11:30am\">
+                                    11:30am</option>
+                                                            <option value=\"12:00pm\">
+                                    12:00pm</option>
+                                                            <option value=\"12:30pm\">
+                                    12:30pm</option>
+                                                            <option value=\"1:00pm\">
+                                    1:00pm</option>
+                                                            <option value=\"1:30pm\">
+                                    1:30pm</option>
+                                                            <option value=\"2:00pm\">
+                                    2:00pm</option>
+                                                            <option value=\"2:30pm\">
+                                    2:30pm</option>
+                                                            <option value=\"3:00pm\">
+                                    3:00pm</option>
+                                                            <option value=\"3:30pm\">
+                                    3:30pm</option>
+                                                            <option value=\"4:00pm\">
+                                    4:00pm</option>
+                                                    </select>
+                    </div>
+                </div>
+                                                <div class=\"field-group\">
+                    <div class=\"caption\" for=\"wof-expiry-date\">
+                        <h3>
+                            WOF Expiry Date
+                                                    </h3>
+                    </div>
+                    <div class=\"db-field\">
+                        <input type=\"date\" style=\"width: 55%; box-sizing: border-box; padding: 6px; margin-top: 8px; margin-right: 16px; font-size: 1em; value=\"2023-12-22\" min=\"1999-01-01\" max=\"2099-12-31\" />
+                    </div>
+                </div>
+                                                <div class=\"field-group\">
+                    <div class=\"caption\" for=\"your_message\">
+                        <h2>
+                            Your Message
+                                                    </h2>
+                    </div>
+                    <div class=\"db-field\">
+                        <textarea class=\"textarea\" id=\"your_message\" name=\"your_message\" rows=\"5\"></textarea>
+                    </div>
+                </div>
+                    
+                    <div class=\"field-group\">
+                <div data-sitekey=\"6LcuLAITAAAAAN0Xga0BoHPBm7RYL84I_Po-zmbR\" class=\"g-recaptcha\"></div>
+            </div>
+        
+
+        <div class=\"field-group\">
+            <input class=\"button button-brand w-100\" type=\"submit\" value=\"Submit\">
+        </div>
