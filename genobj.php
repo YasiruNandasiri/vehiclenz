@@ -5,7 +5,7 @@
 */
 
 class GenObj{
-	private $conndet = array("host"=>"localhost", "db"=>"vehiclenz", "charset"=>"utf8", "u"=>"root", "p"=>"raheyanaleen");
+	private $conndet = array("host"=>"localhost", "db"=>"vehiclenz", "charset"=>"utf8", "u"=>"root", "p"=>"password");
 	private $conn=NULL; 
 	
 	private $plist=array();
